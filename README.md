@@ -1,5 +1,6 @@
 # Scalar–Yukawa Gravity
-
+ markdown  [![DOI](https://zenodo.org/badge/1021972899.svg)](https://doi.org/10.5281/zenodo.16088734)  
+ 
 Reproducible code, data, and manuscript for our **entropic master-equation → Yukawa-screened scalar-field** model of modified gravity.
 
 ---
@@ -45,7 +46,7 @@ If this repository or the accompanying paper helps your research, please cite:
   year    = {2025},
   volume  = {XXX},
   pages   = {XXXXXX},
-  doi     = {10.1234/prd.XXXXXX}
+  bibtex  doi     = {10.5281/zenodo.16088734}  
 }
 ```
 
