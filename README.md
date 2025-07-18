@@ -5,18 +5,14 @@ Reproducible code, data, and manuscript for our **entropic master-equation → Y
 ---
 
 ## Project layout
-
+```text
 notebooks/        – Jupyter workflows (posterior, lensing, MEMS)
-
 data/             – down-sampled κ-maps, MEMS CSVs, rotation curves
-
 scripts/          – fetch_raw_assets.py (downloads large FITS + 2 GB MEMS stream)
-
 figures/          – 300 dpi PNGs ready for publication
-
 manuscript/       – LaTeX source, BibTeX, compiled PDF
-
 environment.yml   – conda environment lockfile
+```
 
 ---
 
@@ -27,15 +23,21 @@ cd Scalar-Yukawa-Gravity
 conda env create -f environment.yml
 conda activate syg
 jupyter lab
+```
 
-Reproduce all figures
-Launch Jupyter Lab and open notebooks/00_master_pipeline.ipynb.
-Select Kernel ▸ Restart & Run All.
-Regenerated PNGs appear in figures/.
-Typical runtime ≈ 6 min on a 4-core laptop.
+---
 
-Citation
+## Reproduce all figures
+1. Open `notebooks/00_master_pipeline.ipynb` in Jupyter Lab.  
+2. Select **Kernel ▸ Restart & Run All**.  
+3. Regenerated PNGs appear in `figures/` (≈ 6 min on a 4-core laptop).
+
+---
+
+## Citation
 If this repository or the accompanying paper helps your research, please cite:
+
+```bibtex
 @article{NeoAmorfic2025,
   title   = {Scalar–Yukawa Gravity: An Entropic Route to Screening},
   author  = {Your Name and Collaborators},
@@ -45,8 +47,13 @@ If this repository or the accompanying paper helps your research, please cite:
   pages   = {XXXXXX},
   doi     = {10.1234/prd.XXXXXX}
 }
+```
 
-License
-Code and data are released under the MIT License (see LICENSE).
-Maintained by NeoAmorfic — pull requests welcome!
+---
 
+## License
+Code and data are released under the **MIT License** (see `LICENSE`).
+
+---
+
+*Maintained by NeoAmorfic — pull requests welcome!*
